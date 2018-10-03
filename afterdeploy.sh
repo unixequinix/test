@@ -14,6 +14,7 @@ rm -f /home/deploy/current/beforedeploy.sh
 rm -f /home/deploy/current/appspec.yml
 rm -f /home/deploy/current/afterdeploy.sh
 passenger-config restart-app /home/deploy --ignore-app-not-running
+
 #service nginx restart
 
 
